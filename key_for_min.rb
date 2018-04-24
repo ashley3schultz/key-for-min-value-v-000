@@ -5,6 +5,6 @@ def key_for_min_value(name_hash)
   array = []
   name_hash.each {|k, v| array << v}
   #name_hash.detect {|k, v| v == array.min}
-  name_hash.each_k {|k,v| puts "#{k}" if v == array.min} 
+  name_hash.each {|k,v| puts "#{k}" if v == array.min} 
 end
 
