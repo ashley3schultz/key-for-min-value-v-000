@@ -2,10 +2,10 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  numb = []
-  name_hash.collect {|k, v| numb << v}
+  array = []
+  name_hash.collect {|k, v| array << v}
   name_hash.detect {|k, v| 
-  if v == arr.min
+  if v == array.min
     k
   end}
 end
