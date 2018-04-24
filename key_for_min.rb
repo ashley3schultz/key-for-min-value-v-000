@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
   
   #name_hash.detect {|k, v| v == array.min}
   
-  name_hash.detect {|key,value| "#{key[array.min]}" if value == array.min} 
+  name_hash.detect {|key,value| key[array.min] if value == array.min} 
 end
 
