@@ -4,10 +4,7 @@
 def key_for_min_value(name_hash)
   array = []
   name_hash.each {|k, v| array << v}
-  if name_hash.detect {|k, v| v == array.min}
-    fin = k
-  else
-    fin = nil 
-  end
+  name_hash.detect {|k, v| v == array.min
+    k}
 end
 
