@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
   name_hash.detect {|k, v| 
   if v == array.min
     name = :k
-    name.split
     name[0]
   end}
 end
