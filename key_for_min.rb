@@ -8,6 +8,6 @@ def key_for_min_value(name_hash)
     fin = k
   else
     fin = nil 
-  end}
+  end
 end
 
