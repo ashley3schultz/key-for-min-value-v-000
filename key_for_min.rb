@@ -4,7 +4,9 @@
 def key_for_min_value(name_hash)
   numb = []
   name = []
-  name_hash.collect {|k, v| numb << v name << k}
+  name_hash.collect {|k, v| 
+    numb << v 
+    name << k}
   name_hash.detect {|k, v| 
   if v == arr.min
     k
